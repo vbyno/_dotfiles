@@ -42,5 +42,9 @@ _load_settings "$HOME/.zsh/configs"
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+alias vim='mvim -v'
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
