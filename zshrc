@@ -43,6 +43,8 @@ _load_settings "$HOME/.zsh/configs"
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 alias vim='mvim -v'
+alias zeus='NEW_RELIC=true zeus'
+export RUBY_GC_MALLOC_LIMIT=140000000
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
