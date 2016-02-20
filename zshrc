@@ -45,6 +45,7 @@ _load_settings "$HOME/.zsh/configs"
 alias vim='mvim -v'
 alias zeus='NEW_RELIC=true zeus'
 export RUBY_GC_MALLOC_LIMIT=140000000
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
